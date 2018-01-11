@@ -76,8 +76,8 @@ btn{
   display: block;
   width:110px;
   padding-top:5px;
-  top:0px;left:515px;
-  float: inherit;
+  top:0px;
+
 }
 
 /*welcome section*/
@@ -88,16 +88,42 @@ btn{
   -webkit-background-size:cover;
   -moz-background-size:cover;
   background-size:cover;
-  height:500px;position:relative;
+  height:500px;
+  position:relative;
   top:0px;
   z-index:0;
   text-align:center
-
+}
+.text-container{
+ text-align: center;
+  color: #ffff;
+}
+.welcome-title{
+  letter-spacing:5px;
+  margin-bottom: 2rem;
 }
 
+.welcome-subtitle{
+  font-weight:700;
+  font-size:3.5rem;
+  margin-bottom: 7rem;
+}
 
+/*tours style*/
 
-
+.w3-display-container{
+  max-width: 100%;
+}
+.title-hr{
+  border-style: dashed;
+  width: 70%;
+  height: 10%;
+  color: black;
+}
+.tours-text-container{
+  color: #ffff;
+  background-color: #97d301;
+}
 
 /* 
 .header{height:70px;width:100%;background-color:#000;z-index:999}
