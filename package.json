@@ -1,0 +1,22 @@
+{
+  "name": "rentalbike",
+  "version": "1.0.0",
+  "description": "exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafa0407/rentabikedemo.git"
+  },
+  "author": "Rafa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rafa0407/rentabikedemo/issues"
+  },
+  "homepage": "https://github.com/Rafa0407/rentabikedemo#readme",
+  "dependencies": {
+    "animate.css": "^3.5.2"
+  }
+}
