@@ -1,6 +1,10 @@
 html, body{
   font-family: Roboto;
 }
+.title-hr{
+  border-style: dashed;
+  background-color: #fff;
+}
 /*menu styles*/ 
 .topNav-header{
   position: fixed;
@@ -136,8 +140,7 @@ html, body{
   padding-top:1rem;
   padding-bottom:1rem;
   margin: 25px;
-  width:50px;
-  max-width:26.5625rem;
+
   display:inline-block;
   margin-bottom:1rem;
   color:#fff
@@ -158,20 +161,52 @@ html, body{
 /*tours style*/
 .tours-title-hr{
   border-style: dashed;
-  width: 70%;
-  height: 10%;
-  color: #ffff;
+  background-color: #fff;
 }
 .tours-text-container{
   color: #ffff;
   background-color: #97d301;
 }
+.tours-text-information{
+  font-size: 1rem;
+}
+@media screen and (max-width: 942px){
+  .tours-text-information{
+    font-size:0.9rem;
+  }
+}
+@media screen and (max-width: 798px){
+  .tours-text-information{
+    font-size:0.7rem;
+  }
+}
+
 .tours-slider-text{
   position: absolute;
-  background-color: #25a1e7;
   top: 1%;
   bottom: 1%;
- 
+}
+.tours-slider-title{
+  text-align: center;
+  font-size: 4.5rem;
+}
+.tours-btn-container{
+  align-content: center;
+
+}
+.tours-btn-title{
+  font-size: 1.5rem;
+  align-content: center;
+  text-decoration: none;
+}
+.tours-btn-link{
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+.tours-btn-link:hover{
+  text-decoration: none;
+  color: #97d301;
 }
 /*slider style*/
 
@@ -203,28 +238,41 @@ html, body{
   z-index:0;
   text-align:center
 }
-/* 
-.header{height:70px;width:100%;background-color:#000;z-index:999}
-.header:after{bottom:-3px;left:0;z-index:2;width:100%;height:1px;background:rgba(151,211,1,.6)}
-.header__menu,.tours,.tours__imgs{background-color:#97d301}
-.header__menu{display:none;top:70px;left:0;right:0;z-index:100}
-.header__logo,.header__menu__item{display:block}
-.header__menu__link{display:block;padding:.5rem;color:#fff}
-.header__menu__link:hover{color:#fff}
-.header__logo{width:110px;padding-top:5px;z-index:200}
-.header__btn-menu{right:0;top:15px;background:0 0;border:none;font-size:2rem;color:#fff;outline:0}
-@media screen and (min-width:1024px){.header{position:fixed;text-align:center}
-.header__logo{display:inline-block;position:absolute;left:49.5%;width:115px;-webkit-transform:translate(-35%,0);-moz-transform:translate(-35%,0);-o-transform:translate(-35%,0);-ms-transform:translate(-35%,0);transform:translate(-35%,0)}
-.header__logo:after{height:calc(100% + 8px);width:calc(100% + 6px);-webkit-transform:translate(-3px,-14px);-moz-transform:translate(-3px,-14px);-o-transform:translate(-3px,-14px);-ms-transform:translate(-3px,-14px);transform:translate(-3px,-14px)}
-.header__menu{display:block!important;background-color:transparent;top:10px}
-.header__menu__item{display:inline-block}
-.header__menu__item.center-left{margin-right:60px}
-.header__menu__item.center-right{margin-left:60px}
-.header__menu__link{padding:.5rem 1rem}
-.header__menu__link:hover{color:#97d301}
-.header__btn-menu{display:none}
+.bikes-title{
+  color: white;
 }
-*/
+.bikes-btn-title{
+  font-size: 1.5rem;
+}
+.bikes-btn-link{
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+.bikes-btn-link:hover{
+  text-decoration: none;
+  color: #FF3EAA;
+}
 
+/*about us section*/
+.about-text-container{
+  background-color: #000000;
+  color: #ffff
+}
 
-/*animate css*/
+/*footer*/
+.footer{
+  background-color: #494949;
+}
+.footer-icon{
+  background-color: #494949;
+  width: 50px;
+  display: inline-block;
+  margin: 5px;
+}
+.footer-copyright-text{
+  text-align: center;
+  color: #f2f2f2; 
+  font-size: 1rem;
+  margin: 0px;
+}
