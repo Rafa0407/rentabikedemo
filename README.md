@@ -1,9 +1,10 @@
 # rentabikedemo 
 
-Se creó una pequeña instancia de un servidor en node.js 
-para correr el server 
+Se creó una pequeña instancia de un servidor en node.js
+
+Para correr el serve correr los siguientes comandos en la terminal. 
 - npm install 
--node server.js 
+- node server.js 
 
 La pagina correrá en el puerto http://localhost:3000 
 
